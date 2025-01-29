@@ -14,7 +14,7 @@ function (Controller,JSONModel) {
             var oItem=oEvent.getParameter("selectedItem")
             var key=oItem.mProperties.key
 
-            var entity="/BusinessPartnerSet('" + key + "')/ToSalesOrder"
+            var entity="/BusinessPartnerSet('" + key + "')/ToSalesOrders"
             var oModel=this.getOwnerComponent().getModel()
             var that=this
 
